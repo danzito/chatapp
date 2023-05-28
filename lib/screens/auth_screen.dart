@@ -67,7 +67,7 @@ class _AuthScreenState extends State<AuthScreen> {
                               setState(() {
                                 _isLogin = !_isLogin;
                               });
-                            },
+                            }, 
                             child: Text(_isLogin
                                 ? "Create an Account"
                                 : 'I already have an account. Login.'),
