@@ -21,8 +21,8 @@ class ChatScreen extends StatelessWidget {
               .collection('chats/Q644ImTKDQSBFthvaw1A/messages')
               .snapshots()
               .listen((event) {
-                print('See below ->');
-            print(event.docs[0]);
+            //     print('See below ->');
+            // print(event.docs[0]);
           });
         },
         child: const Icon(Icons.add),
